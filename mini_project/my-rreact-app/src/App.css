@@ -26,9 +26,19 @@ body {
 }
 
 .card{
-    height: 400px;
-    width : 300px;
+    height: 40px;
+    width : 30px;
     background-color: #fff;
     border-radius: 20px;
+    padding: 30px ;
 
+}
+.card .top{
+    display:flex ;
+    align-items :center ;
+    justify-content : space-between
+}
+
+.top img{
+    height: 30px;
 }
