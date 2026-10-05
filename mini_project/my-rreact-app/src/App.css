@@ -3,12 +3,13 @@
   margin: 0;
   padding: 0;
   font-family: 'helvetica neue';
+  
 }
 
 body {
   font-family: var(--font-sans);
   background-color: var(--bg-color);
-  color: var(--text-color);
+  color: var(rgb(7, 7, 7));
   min-height: 100vh;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -26,11 +27,15 @@ body {
 }
 
 .card{
-    height: 40px;
-    width : 30px;
+    display : flex ;
+    flex-direction:column;
+    justify-content: space-between;
+    height: 400px;
+    width : 300px;
     background-color: #fff;
     border-radius: 20px;
     padding: 30px ;
+    color:#000;
 
 }
 .card .top{
@@ -41,4 +46,36 @@ body {
 
 .top img{
     height: 30px;
+    border-radius: 50% ;
+    border: 1px solid #dadada ;
+
+}
+.top button{
+    display : flex ;
+    align-items: center ;
+    border : 1px solid #dadada;
+    padding : 4px 8px;
+    font-size : 11px ;
+    border-radius:5px;
+    gap : 3px;
+    background-color: transparent ;
+    color:#000;
+}
+
+
+.bottom{
+    display : flex;
+    align-items:center;
+    justify-content : space-between;
+    border-top:1px solid #b1b1b1 ;
+    padding : 10px 0 ;
+
+    
+}
+
+.bottom button{
+    color:#fff ;
+    background-color:#000 ;
+    text-align: center;
+    border-radius: 20%;
 }

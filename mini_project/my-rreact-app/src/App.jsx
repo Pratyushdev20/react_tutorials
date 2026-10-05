@@ -1,5 +1,5 @@
 import React from 'react'
-import './app.css';
+import './App.css';
 import amazon from "../public/amazon.jpeg";
 import {Bookmark} from 'lucide-react'
 
@@ -9,7 +9,7 @@ function App() {
         <div className='card'>
             <div className='top'>
                 <img src={amazon} alt=""/>
-                <button>save <Bookmark /></button>
+                <button>save <Bookmark size={12} /></button>
             </div>
             <div className="center">
                 <h3>Amazon<span> 5 days ago</span></h3>
@@ -23,8 +23,9 @@ function App() {
                 <div>
                     <h3>$120/hr</h3>
                     <p>Mumbai,India</p>
-
-                <button>Apply Now</button>
+                </div>
+                <div>
+                    <button>Apply Now</button>
                 </div>
 
             </div>
