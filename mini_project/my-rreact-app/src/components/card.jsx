@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css';
+import '../App.css';
 import amazon from "../public/amazon.jpeg";
 import {Bookmark} from 'lucide-react'
 
