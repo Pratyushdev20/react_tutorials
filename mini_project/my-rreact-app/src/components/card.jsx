@@ -1,9 +1,10 @@
 import React from 'react'
 import '../App.css';
-import amazon from "../public/amazon.jpeg";
+// import amazon from "../public/amazon.jpeg";
+import amazon from "/public/amazon.jpeg";
 import {Bookmark} from 'lucide-react'
 
-function App() {
+function Card(elem) {
   return (
     <div className='parent'>
         <div className='card'>
@@ -11,22 +12,22 @@ function App() {
 
             
                 <div className='top'>
-                    <img src={amazon} alt=""/>
+                    <img src={elem.brandLogo} alt={elem.name}/>
                     <button>save <Bookmark size={12} /></button>
                 </div>
                 <div className="center">
-                    <h3>Amazon<span > 5 days ago</span></h3>
+                    <h3>{elem.name}<span > 5 days ago</span></h3>
                     <h2>senior UI/UX Designer</h2>
                     <div className="button">
-                        <h4>Part-Time</h4>
-                        <h4> senior level</h4>
+                        <h4>{elem.name}</h4>
+                        <h4> {elem.tag2}</h4>
                     </div>
                 </div>
             </div>
             <div className="bottom">
                 <div>
-                    <h3>$120/hr</h3>
-                    <p>Mumbai,India</p>
+                    <h3>{elem.pay}</h3>
+                    <p>{elem.location}</p>
                 </div>
                 <div>
                     <button>Apply Now</button>
@@ -42,4 +43,4 @@ function App() {
   )
 }
 
-export default App
+export default Card
