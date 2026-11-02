@@ -1,6 +1,7 @@
+
 const jobs = [
   {
-    brandLogo: "https://logo.clearbit.com/google.com",
+    brandLogo: "https://cdn.simpleicons.org/google",
     name: "Google",
     datePosted: "2 days ago",
     post: "Software Engineer",
@@ -10,7 +11,7 @@ const jobs = [
     location: "Bengaluru, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/amazon.com",
+    brandLogo: "https://cdn.simpleicons.org/amazon",
     name: "Amazon",
     datePosted: "5 days ago",
     post: "Software Development Engineer I",
@@ -20,7 +21,7 @@ const jobs = [
     location: "Hyderabad, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/microsoft.com",
+    brandLogo: "https://cdn.simpleicons.org/microsoft",
     name: "Microsoft",
     datePosted: "1 week ago",
     post: "Software Engineer",
@@ -30,7 +31,7 @@ const jobs = [
     location: "Bengaluru, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/meta.com",
+    brandLogo: "https://cdn.simpleicons.org/meta",
     name: "Meta",
     datePosted: "3 days ago",
     post: "Frontend Software Engineer",
@@ -40,7 +41,7 @@ const jobs = [
     location: "Gurugram, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/apple.com",
+    brandLogo: "https://cdn.simpleicons.org/apple",
     name: "Apple",
     datePosted: "2 weeks ago",
     post: "Software Engineer",
@@ -50,7 +51,7 @@ const jobs = [
     location: "Hyderabad, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/netflix.com",
+    brandLogo: "https://cdn.simpleicons.org/netflix",
     name: "Netflix",
     datePosted: "4 days ago",
     post: "Backend Engineer",
@@ -60,7 +61,7 @@ const jobs = [
     location: "Bengaluru, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/nvidia.com",
+    brandLogo: "https://cdn.simpleicons.org/nvidia",
     name: "NVIDIA",
     datePosted: "6 days ago",
     post: "Machine Learning Engineer",
@@ -70,7 +71,7 @@ const jobs = [
     location: "Pune, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/adobe.com",
+    brandLogo: "https://cdn.simpleicons.org/adobe",
     name: "Adobe",
     datePosted: "3 weeks ago",
     post: "Software Development Engineer",
@@ -80,7 +81,7 @@ const jobs = [
     location: "Noida, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/oracle.com",
+    brandLogo: "https://cdn.simpleicons.org/oracle",
     name: "Oracle",
     datePosted: "10 days ago",
     post: "Cloud Software Engineer",
@@ -90,7 +91,7 @@ const jobs = [
     location: "Bengaluru, India"
   },
   {
-    brandLogo: "https://logo.clearbit.com/ibm.com",
+    brandLogo: "https://cdn.simpleicons.org/ibm",
     name: "IBM",
     datePosted: "10 weeks ago",
     post: "AI/ML Software Engineer",
@@ -100,4 +101,5 @@ const jobs = [
     location: "Mumbai, India"
   }
 ];
-export default jobs ;
+
+export default jobs;

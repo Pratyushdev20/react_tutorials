@@ -19,11 +19,17 @@ body {
 }
 
 .parent{
-    height:100vh;
-    width:100%;
-    background-color: #111;
-    padding:30px;
+    min-width: 0;
+    height: auto;
+}
 
+.parent1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    gap: 2px;
+    align-content: start;
+    padding: 30px;
+    background-color: #111;
 }
 
 .card{
@@ -31,10 +37,10 @@ body {
     flex-direction:column;
     justify-content: space-between;
     height: 350px;
-    width : 300px;
+    width : 100%;
     background-color: #fff;
     border-radius: 20px;
-    padding: 30px ;
+    padding: 30px;  
     color:#000;
 
 }
